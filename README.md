@@ -7,3 +7,13 @@ need a excel, write some text. the cloumn name should be txt. THen they can run 
 need edge-tts libraryQ
 
 
+[asr-CN.py]
+[asr-EN.py]
+calculate ASR word error rate and sentence error rate 
+EN have no space between with two words
+EN have space between with two words
+
+[text-token.py]
+[token-text.py]
+tiktoken 
+encoding_name = 'cl100k_base'  
