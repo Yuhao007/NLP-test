@@ -13,6 +13,7 @@ need a excel, write some text. the cloumn name should be txt. THen they can run 
 need edge-tts libraryQ
 
 ———————————————————————————————————————————————————————
+
 [asr-CN.py]
 
 [asr-EN.py]
@@ -25,7 +26,7 @@ EN have space between with two words
 
 calculate ASR word error rate and sentence error rate  with tiktoken
 
-——————————————————————————————————————————————————————————————————————————
+———————————————————————————————————————————————————————
 
 [text-token.py]
 
