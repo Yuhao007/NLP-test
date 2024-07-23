@@ -17,6 +17,8 @@ encoding = tiktoken.get_encoding(encoding_name)
 
 # 定义一个函数来清洗和分割文本
 def tokenize_text(text):
+    # 移除标点符号,并将文本转换为小写
+    text = re.sub(r'[^\w\s]', '', text).lower()
     # 使用 Tiktoken 进行分词
     tokens = encoding.encode(text)
     return tokens
