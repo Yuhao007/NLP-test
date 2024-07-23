@@ -1,7 +1,7 @@
 # AI-nlp project
 about KWS，TTS，ASR，NLU，AEC，VAD eg,
 
-[ TTS-CN-mp3.py ] /n
+[ TTS-CN-mp3.py ] \n
 [ TTS-EN-wav.py ]
 [ TTS-number-mp3.py ]
 need a excel, write some text. the cloumn name should be txt. THen they can run like text to speech.
