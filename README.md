@@ -50,6 +50,10 @@ calculate the Peak Amplitude of audio
 
 read the different audio devices
 
+[playaudio&background.py]
+
+choose a channel/device number to play audio and anthor channel/device will play the backgound music
+
 ------------------------------
 
 
