@@ -1,7 +1,7 @@
 # AI-nlp project
 about KWS，TTS，ASR，NLU，AEC，VAD eg,
 
-———————————T T S———————————————
+———————————T T S——————————————
 
 [ TTS-CN-mp3.py ] 
 
@@ -12,7 +12,9 @@ about KWS，TTS，ASR，NLU，AEC，VAD eg,
 need a excel, write some text. the cloumn name should be txt. THen they can run like text to speech.
 need edge-tts libraryQ
 
-—————————————A S R————————————————
+------------------------------
+
+—————————————A S R—————————————
 
 [asr-CN.py]
 
@@ -26,7 +28,9 @@ EN have space between with two words
 
 calculate ASR word error rate and sentence error rate  with tiktoken
 
-————————————multi language———————————
+-----------------------------------
+
+——————————multi language———————————
 
 [text-token.py]
 
@@ -34,11 +38,15 @@ calculate ASR word error rate and sentence error rate  with tiktoken
 
 tiktoken  encoding_name = 'cl100k_base'  
 
-————————————————audio———————————————
+---------------------------------
+
+———————————audio——————————
 
 [amp-max.py]
 
 calculate the Peak Amplitude of audio 
+
+------------------------------
 
 
 
