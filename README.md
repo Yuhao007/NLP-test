@@ -46,6 +46,10 @@ tiktoken  encoding_name = 'cl100k_base'
 
 calculate the Peak Amplitude of audio 
 
+[audio-read.py]
+
+read the different audio devices
+
 ------------------------------
 
 
