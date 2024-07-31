@@ -12,6 +12,10 @@ about KWS，TTS，ASR，NLU，AEC，VAD eg,
 need a excel, write some text. the cloumn name should be txt. THen they can run like text to speech.
 need edge-tts libraryQ
 
+[full-standard.py]
+
+change the audio mp3-wav and make the name/number standard 
+
 ------------------------------
 
 ————————————A S R————————————
