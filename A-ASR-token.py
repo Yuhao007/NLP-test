@@ -1,5 +1,6 @@
 import pandas as pd
 import re
+import time
 import tiktoken
 from difflib import SequenceMatcher
 
@@ -67,7 +68,7 @@ def main():
     
     df['encoded_text'] = df['clean_text'].apply(encoder.encode)
     df['encoded_r_text'] = df['clean_r_text'].apply(encoder.encode)
-
+    time.sleep(1)
     # 应用WER和编辑操作计算函数
     df[['expected_len', 'actual_len', 'substitutions', 'deletions', 'insertions', 'word_error_rate', 'sentence_error']] = df.apply(calculate_wer_and_edits, axis=1)
 
