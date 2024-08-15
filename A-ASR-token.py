@@ -5,14 +5,15 @@ from difflib import SequenceMatcher
 
 def clean_text(text):
     # 移除标点符号和多余空格
+    text = str(text)
     text = text.lower()
     text = re.sub(r'[^\w\s]', ' ', text)
     text = re.sub(r'\s+', ' ', text).strip()
     return text
 
 def calculate_wer_and_edits(row):
-    expected = row['encoded_r_text']
-    actual = row['encoded_text']
+    expected = row['encoded_text']
+    actual = row['encoded_r_text']
     expected_len = len(expected)
     actual_len = len(actual)
 
