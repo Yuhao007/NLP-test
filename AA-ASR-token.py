@@ -32,8 +32,8 @@ def calculate_wer_and_edits(row):
             insertions += j2 - j1
 
     total_edits = substitutions + deletions + insertions
-    word_error_rate = total_edits / max(len(expected), len(actual), 1)
-
+    #word_error_rate = total_edits / max(len(expected), len(actual), 1)
+    word_error_rate = total_edits / len(expected) 
     sentence_error = int(substitutions > 0 or deletions > 0 or insertions > 0)
 
     return pd.Series({
